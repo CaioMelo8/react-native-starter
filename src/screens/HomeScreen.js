@@ -5,6 +5,7 @@ const HomeScreen = ({ navigation }) => {
   return (
     <View style={{ padding: 16 }}>
       <Text style={styles.text}>Hi there!</Text>
+      <Button title="Go to Box" onPress={() => navigation.navigate('Box')} />
       <Button
         title="Go to Color"
         onPress={() => navigation.navigate('Color')}
